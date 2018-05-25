@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Street Fighter RPG</title>
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body id="stage">
+    <div class="container">
+        <div class="jumbotron text-center">
+            <img src="assets/images/logo.png">
+           <h2>Select your Fighter!</h2> 
+
+           <audio controls>
+                <source src="assets/audio/cvs2.mp3" type="audio/mpeg">
+            </audio>
+
+
+        </div>
+        </div>
+                
+        <div class="col-lg-12 text-center" id="message-section">
+                <div id="game-message"></div>
+                <button id="restart">Restart</button>
+              </div>
+
+              <br>
+
+        <div class="container">
+        <div class="row">
+                <div class="col-lg-3 character-image available-character" id="ryu-character" id="characters-available" style="display: inline-block">
+                  <strong><p>Ryu</p></strong>
+                  <p>HP</p>
+                  <p class="health">120</p>
+                  <img src="assets/images/ryu.gif" alt="Ryu Character" id="ryu-image" style="width: 200px">
+                  
+                </div>
+
+
+                <div class="col-lg-3 character-image available-character" id="ken-character" style="display: inline-block">
+                    <strong><p>Ken</p></strong>
+                    <p>HP</p>
+                    <p class="health">100</p>
+                    <img src="assets/images/ken.gif" alt="Ken Character" id="ken-image" style="width: 200px">
+                    
+                </div>
+
+
+                  <div class="col-lg-3 character-image available-character" id="akuma-character" style="display: inline-block"> 
+                    <strong><p>Akuma</p></strong>
+                    <p>HP</p>
+                    <p class="health">150</p>
+                    <img src="assets/images/akuma.gif" alt="Akuma Character" id="akuma-image" style="width: 200px">
+                    
+                  </div>
+
+
+                  <div class="col-lg-3 character-image available-character" id="chunli-character" style="display: inline-block">
+                    <strong><p>Chun Li</p></strong>
+                    <p>HP</p>
+                    <p class="health">180</p>
+                    <img src="assets/images/chunli.gif" alt="ChunLi Character" id="chunli-image" style="width: 200px">
+                    
+                  </div>
+               
+
+                 
+
+                  <div class="col-lg-4 text-center" id="chosen-character">
+                    <h2>Your Character</h2>
+                  </div> 
+
+                  <div class="col-lg-4 text-center" >
+                    <button id="attack" type="button" class="btn btn-danger">FIGHT!</button>
+                  </div> 
+            
+                  <div class="col-lg-4 text-center" id="defender-section">
+                    <h2>Defender</h2>
+                  </div>
+
+
+
+                  <div class="col-lg-12 text-center" id="enemies-available">
+                    <h2>Enemies Available To Attack</h2>
+                  </div>
+
+                  
+
+                 <!-- <div class="col-lg-12 text-center" id="message-section">
+                    <div id="game-message"></div>
+                    <button id="restart">Restart</button>
+                  </div>-->
+              
+        </div>
+      </div>
+    
+
+<script src="assets/javascript/game.js"></script>
+
+
+</body>

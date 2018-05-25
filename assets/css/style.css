@@ -1,0 +1,38 @@
+#stage{
+    background-image: url(stage.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Anton', sans-serif;
+    
+}
+
+.jumbotron{
+    background: rgba(255, 255, 255, 0);
+   background: rgba(245, 245, 245, 0);
+    
+}
+
+
+
+
+/* rotates the chosen fighter in the correct direction */
+
+#chosen-character #ryu-image{
+    transform:rotateY(180deg);
+}
+
+#chosen-character #ken-image{
+    transform:rotateY(180deg);
+}
+
+
+#chosen-character #akuma-image{
+    transform:rotateY(180deg);
+}
+
+
+#chosen-character #chunli-image{
+    transform:rotateY(180deg);
+}
+
+
+
